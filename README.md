@@ -1,6 +1,12 @@
-# typescript-react-hello-world
+# Hello World with Typescript, React, Webpack and Netlify 
 
-Steps to creating a basic Typescript and React hello world app.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d91103dc-4343-49e0-90b1-529c91fdb6d4/deploy-status)](https://app.netlify.com/sites/typescriptreacthelloworld/deploys)
+
+[View the live site](https://typescriptreacthelloworld.netlify.app/)
+
+---
+
+# Tutorial
 
 1. Install yarn (or npm but I use yarn)
 
@@ -23,12 +29,6 @@ yarn add -D typescript @types/node @types/react @types/react-dom
   "compilerOptions": {
     "jsx": "react",
     "module": "es6",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "outDir": "./dist",
-    "sourceMap": true,
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
   },
   "include": ["src/**/*"],
@@ -36,19 +36,21 @@ yarn add -D typescript @types/node @types/react @types/react-dom
   }
 ```
 
-4. Add react
+4. Add react and react-dom
 
 ```
 yarn add react react-dom
 ```
 
-4. Add webpack
+4. Add webpack and the ts-loader
 
 ```
 yarn add -D webpack webpack-cli ts-loader
 ```
 
 5. Run webpack
+
+You can also run `yarn start` which simply maps to this command.
 
 ```
 npx webpack
