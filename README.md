@@ -1,4 +1,4 @@
-# Hello World with Typescript, React, Webpack
+# Hello World with Typescript, React, Webpack, Netlify, Storybook, Jest
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d91103dc-4343-49e0-90b1-529c91fdb6d4/deploy-status)](https://app.netlify.com/sites/typescriptreacthelloworld/deploys)
 
