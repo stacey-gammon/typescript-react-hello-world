@@ -9,6 +9,9 @@ module.exports = {
   target: 'web',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
+    alias: {
+      'react/jsx-runtime': require.resolve('react/jsx-runtime'),
+    },
   },
   module: {
     rules: [
